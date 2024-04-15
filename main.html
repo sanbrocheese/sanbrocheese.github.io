@@ -1,6 +1,66 @@
 <!DOCTYPE html>
+<style>
+    body {
+        background-image: url("Media/Bg1.gif");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    h1 {
+        font: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    p {
+        font: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    video {
+        width: 30%;
+        height: 30%;
+    }
+
+    .BGOverlay {
+        position:fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0,.5);
+    }
+    .TitleDiv {
+        width: 27%;
+        height: 75px;
+        border: 4px solid rgb(0, 0, 0);
+        background-color: rgb(3, 26, 34);
+    }
+    .MainDiv {
+        border: 4px solid rgb(0, 0, 0);
+        background-color: rgb(3, 26, 34);
+    }
+    .ShowcaseDiv {
+
+    }
+
+</style>
 <html>
     <body>
-        <img src="Media/Bg1.gif">
+        <div class="BGOverlay">
+            <div class="TitleDiv">
+                <h1>Sanbro's Website</h1>
+            </div>
+            <div class = "MainDiv">
+                <p>Im called Sanbro/Cheese whatever, this is my portifolo, (awful design i need to learn some CSS LOL, I actucally fix this one day)</p>
+                <p>I have Basic Experience in some coding languanges but very good at roblox LUAU</p>
+            </div>
+            <div class="ShowcaseDiv">
+                <video controls src="Media/Showcase1.mp4"></video>
+                <video controls src="Media/Showcase2.mp4"></video>
+                <video controls src="Media/Showcase3.mp4"></video>
+            </div>
+            <div class="MainDiv">
+                <h1>Contacts</h1>
+                <p>Discord: san_cheese <a href="https://www.roblox.com/users/439921707/profile">Roblox</a></p> 
+
+            </div>
+        </div>
     </body>
 </html>
